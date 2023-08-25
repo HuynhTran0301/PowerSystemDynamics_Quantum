@@ -1,2 +1,2 @@
-*.jupyter notebook linguist-detectable=false
+*.Jupyter Notebook linguist-detectable=false
 *.Julia linguist-detectable=true
