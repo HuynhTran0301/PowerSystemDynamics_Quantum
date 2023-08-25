@@ -1,2 +1,2 @@
 * linguist-vendored
-*.julia linguist-detectable=true
+*.dart linguist-vendored=false
