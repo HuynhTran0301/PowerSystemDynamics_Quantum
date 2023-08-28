@@ -1,3 +1,2 @@
 *.ipynb linguist-language=Julia
-*.ipynb linguist-language=true
 static/* linguist-vendored
