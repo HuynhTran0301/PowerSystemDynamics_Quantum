@@ -2,7 +2,7 @@
 
 This repository contains the source code necessary to reproduce the results for solving differential algebraic equations in power system dynamics.
 
-In addition, the repository includes two folders: conference version and full version.
+In addition, the repository includes two folders: the conference version and the journal version.
 
 ## Conference version
 
@@ -29,9 +29,9 @@ Power system dynamics are generally modeled by high dimensional nonlinear differ
 
 ![three machine](https://github.com/ThanhEthan/PowerSystemDynamics_Quantum/assets/115194407/a368940a-2a71-4da2-bfad-c66953fec44c)
 
-## Full version
+## Journal version
 
-In the full version,  we have enhanced the conference model by integrating the turbine and speed governor systems. Building upon the two initial test cases, we have incorporated additional tests focusing on the internal node model, allowing a greater understanding of the system's dynamics.
+In the journal version,  we have enhanced the conference model by integrating the turbine and speed governor systems. Building upon the two initial test cases, we have incorporated additional tests focusing on the internal node model, allowing a greater understanding of the system's dynamics.
 
 ### Several Numerical Results:
 #### Single machine infinite bus system:
