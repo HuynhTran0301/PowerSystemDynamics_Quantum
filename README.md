@@ -1,4 +1,4 @@
-# PowerSystemDynamics Quantum
+# Repository for Solving Differential-Algebraic Equations in Power System Dynamic Analysis with Quantum Computing
 
 This repository contains the source code necessary to reproduce the results for solving differential algebraic equations in power system dynamics.
 
