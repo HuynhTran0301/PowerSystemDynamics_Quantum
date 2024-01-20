@@ -1,4 +1,4 @@
-# Quantum computing -DAE- Power system dynamics
+# Quantum computing - DAE - Power system dynamics
 
 This repository contains the source code necessary to reproduce the results for solving differential algebraic equations in power system dynamics.
 
