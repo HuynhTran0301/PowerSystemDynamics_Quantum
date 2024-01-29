@@ -1,8 +1,8 @@
-# Repository for Solving Differential-Algebraic Equations in Power System Dynamic Analysis with Quantum Computing
+# Repository for Simulation of the Power System Dynamics with Quantum Computing
 
 This repository contains the source code necessary to reproduce the results for solving differential algebraic equations in power system dynamics.
 
-In addition, the repository includes two folders: the conference version and the journal version.
+In addition, the repository includes three folders: the conference version, the journal version, and the PES General Meeting.
 
 ## Conference version
 
@@ -20,33 +20,19 @@ In this version, we simulate the power system dynamics with the synchronous mach
 ### Abstract:
 Power system dynamics are generally modeled by high dimensional nonlinear differential-algebraic equations due to a large number of generators, loads, and transmission lines. Thus, its computational complexity grows exponentially with the system size. This paper demonstrates the potential use of quantum computing algorithms to model the power system dynamics. Leveraging a symbolic programming framework, we equivalently convert the power system dynamics' differential-algebraic equations (DAEs) into ordinary differential equations (ODEs), where the data of the state vector can be encoded into quantum computers via amplitude encoding. The system's nonlinearity is captured by Taylor polynomial expansion, the quantum state tensor, and Hamiltonian simulation, whereas state variables can be updated by a quantum linear equation solver. Our results show that quantum computing can simulate the dynamics of the power system with high accuracy, whereas its complexity is polynomial in the logarithm of the system dimension. Our work also illustrates the use of scientific machine learning tools for implementing scientific computing concepts, e.g., Taylor expansion, DAEs/ODEs transform, and quantum computing solver, in the field of power engineering.
 
-### Numerical Results:
-#### Single machine infinite bus system:
-
-![one machine](https://github.com/ThanhEthan/PowerSystemDynamics_Quantum/assets/115194407/8e5932cf-303e-45d4-b11a-87e63e921b2a)
-
-#### Three machine infinite bus system:
-
-![three machine](https://github.com/ThanhEthan/PowerSystemDynamics_Quantum/assets/115194407/a368940a-2a71-4da2-bfad-c66953fec44c)
 
 ## Journal version
 
 In the journal version,  we have enhanced the conference model by integrating the turbine and speed governor systems. Building upon the two initial test cases, we have incorporated additional tests focusing on the internal node model, allowing a greater understanding of the system's dynamics.
 
-### Several Numerical Results:
-#### Single machine infinite bus system:
 
-![one machine](https://github.com/ThanhEthan/PowerSystemDynamics_Quantum/assets/115194407/cbd9c429-f3c3-46d5-b9d6-d660f7b4e045)
+## PES General Meeting
 
+The conference version consists of code to reproduce the results presented in the paper:
 
-#### Internal node model (Three machine nine bus system):
+Power System Dynamic Analysis Using Quantum Linear Differential Equation Solver Oracle.
 
-![internal](https://github.com/ThanhEthan/PowerSystemDynamics_Quantum/assets/115194407/a55a002e-5442-429d-afbf-63352a47b465)
-
-
-#### General DAEs (Three machine nine bus system):
-
-![three machine](https://github.com/ThanhEthan/PowerSystemDynamics_Quantum/assets/115194407/cdf2a7ab-5aac-419a-9aa9-a1453d093f96)
+By Huynh T. T. Tran, Anh Phuong Ngo and Hieu T. Nguyen.
 
 
 ## Language programming:
