@@ -46,13 +46,15 @@ Please contact Ethan Tran at email htran@aggies.ncat.edu if you have any code or
 
 Please cite this paper if you use the code above in your work.
 ```
-@inproceedings{tran2023applying,
-  title={Applying Quantum Computing to Simulate Power System Dynamics' Differential-Algebraic Equations},
-  author={Tran, Huynh TT and Nguyen, Hieu T and Vu, Long Thanh and Ojetola, Samuel T},
-  booktitle={2023 North American Power Symposium (NAPS)},
-  pages={1--6},
-  year={2023},
-  organization={IEEE}
+@article{tran2024solving,
+  title={Solving differential-algebraic equations in power system dynamic analysis with quantum computing},
+  author={Tran, Huynh TT and Nguyen, Hieu T and Vu, Long T and Ojetola, Samuel T},
+  journal={Energy Conversion and Economics},
+  volume={5},
+  number={1},
+  pages={40--53},
+  year={2024},
+  publisher={Wiley Online Library}
 }
 ```
 
