@@ -17,11 +17,15 @@ Accepted and presented to the 55th Annual North American Power Symposium (NAPS),
 
 In this version, we simulate the power system dynamics with the synchronous machine, IEEE type 1 exciter system, and do not model the turbine and speed governor system. The model was tested in two cases: i) single machine infinite bus system and ii) three machine nie bus system.
 
-### Abstract:
-Power system dynamics are generally modeled by high dimensional nonlinear differential-algebraic equations due to a large number of generators, loads, and transmission lines. Thus, its computational complexity grows exponentially with the system size. This paper demonstrates the potential use of quantum computing algorithms to model the power system dynamics. Leveraging a symbolic programming framework, we equivalently convert the power system dynamics' differential-algebraic equations (DAEs) into ordinary differential equations (ODEs), where the data of the state vector can be encoded into quantum computers via amplitude encoding. The system's nonlinearity is captured by Taylor polynomial expansion, the quantum state tensor, and Hamiltonian simulation, whereas state variables can be updated by a quantum linear equation solver. Our results show that quantum computing can simulate the dynamics of the power system with high accuracy, whereas its complexity is polynomial in the logarithm of the system dimension. Our work also illustrates the use of scientific machine learning tools for implementing scientific computing concepts, e.g., Taylor expansion, DAEs/ODEs transform, and quantum computing solver, in the field of power engineering.
-
 
 ## Journal version
+
+The conference version consists of code to reproduce the results presented in the paper:
+
+Solving differential-algebraic equations in power system dynamic analysis with quantum computing:
+[10.1049/enc2.12107](https://doi.org/10.1049/enc2.12107)
+
+By Huynh T. T. Tran,  Hieu T. Nguyen, Long Thanh Vu and Samuel T. Ojetola.
 
 In the journal version,  we have enhanced the conference model by integrating the turbine and speed governor systems. Building upon the two initial test cases, we have incorporated additional tests focusing on the internal node model, allowing a greater understanding of the system's dynamics.
 
@@ -31,6 +35,8 @@ In the journal version,  we have enhanced the conference model by integrating th
 The conference version consists of code to reproduce the results presented in the paper:
 
 Power System Dynamic Analysis Using Quantum Linear Differential Equation Solver Oracle.
+
+https://www.researchgate.net/publication/378769512_Power_System_Dynamic_Analysis_Using_Quantum_Linear_Differential_Equation_Solver_Oracle
 
 By Huynh T. T. Tran, Anh Phuong Ngo and Hieu T. Nguyen.
 
