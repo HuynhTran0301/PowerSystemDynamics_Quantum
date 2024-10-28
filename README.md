@@ -35,8 +35,7 @@ In the journal version,  we have enhanced the conference model by integrating th
 The conference version consists of code to reproduce the results presented in the paper:
 
 Power System Dynamic Analysis Using Quantum Linear Differential Equation Solver Oracle.
-
-https://www.researchgate.net/publication/378769512_Power_System_Dynamic_Analysis_Using_Quantum_Linear_Differential_Equation_Solver_Oracle
+[10.1109/PESGM51994.2024.10688522](https://ieeexplore.ieee.org/document/10688522)
 
 By Huynh T. T. Tran, Anh Phuong Ngo and Hieu T. Nguyen.
 
