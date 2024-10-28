@@ -4,7 +4,7 @@ This repository contains the source code necessary to reproduce the results for 
 
 In addition, the repository includes three folders: the conference version, the journal version, and the PES General Meeting.
 
-## Conference version
+## NAPS Conference version
 
 The conference version consists of code to reproduce the results presented in the paper:
 
@@ -18,7 +18,7 @@ Accepted and presented to the 55th Annual North American Power Symposium (NAPS),
 In this version, we simulate the power system dynamics with the synchronous machine, IEEE type 1 exciter system, and do not model the turbine and speed governor system. The model was tested in two cases: i) single machine infinite bus system and ii) three machine nie bus system.
 
 
-## Journal version
+## IET Journal version
 
 The conference version consists of code to reproduce the results presented in the paper:
 
@@ -30,7 +30,7 @@ By Huynh T. T. Tran,  Hieu T. Nguyen, Long Thanh Vu and Samuel T. Ojetola.
 In the journal version,  we have enhanced the conference model by integrating the turbine and speed governor systems. Building upon the two initial test cases, we have incorporated additional tests focusing on the internal node model, allowing a greater understanding of the system's dynamics.
 
 
-## PES General Meeting
+## PES General Meeting Version
 
 The conference version consists of code to reproduce the results presented in the paper:
 
